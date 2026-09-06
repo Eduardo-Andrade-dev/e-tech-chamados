@@ -1,0 +1,12 @@
+:root {
+  --bg-sidebar: #1B1E23;
+  --bg-main: #F6F5F2;
+  --card-bg: #FFFFFF;
+  --text-primary: #1F242D;
+  --accent-blue: #3D7FE8;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { background-color: var(--bg-main); color: var(--text-primary); }
+.app-container { display: flex; min-height: 100vh; }
+.content-area { flex: 1; padding: 32px; }
